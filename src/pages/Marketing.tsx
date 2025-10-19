@@ -1,12 +1,11 @@
 import { KpiCard } from "@/components/KpiCard";
 import { PowerBIOrgIframe } from "@/components/PowerBIOrgIframe";
-import { Navigation } from "@/components/Navigation";
+import { DashboardLayout } from "@/components/DashboardLayout";
 
 const Marketing = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      <main className="container mx-auto px-4 py-8">
+    <DashboardLayout>
+      <div className="container mx-auto px-6 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-foreground mb-2">
             Marketing Analytics
@@ -44,8 +43,8 @@ const Marketing = () => {
             title="Marketing Dashboard Report"
           />
         </div>
-      </main>
-    </div>
+      </div>
+    </DashboardLayout>
   );
 };
 
