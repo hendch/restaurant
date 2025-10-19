@@ -8,51 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Restaurant Analytics Dark Theme */
-    --background: 226 49% 8%;
-    --foreground: 226 100% 95%;
+    /* Restaurant Analytics Warm Peach/Terracotta Theme */
+    --background: 30 100% 97%; /* #FFF4EA - Very light peach/beige */
+    --foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red for text */
 
-    --card: 220 40% 12%;
-    --card-foreground: 226 100% 95%;
+    --card: 30 85% 92%; /* #FBE3D0 - Soft warm peach for cards */
+    --card-foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red for text */
 
-    --popover: 220 40% 12%;
-    --popover-foreground: 226 100% 95%;
+    --popover: 30 85% 92%; /* #FBE3D0 - Soft warm peach */
+    --popover-foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red */
 
-    --primary: 217 91% 60%;
-    --primary-foreground: 226 100% 95%;
+    --primary: 3 50% 40%; /* #9C3B36 - Brick red for bars & lines */
+    --primary-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
 
-    --secondary: 160 84% 39%;
-    --secondary-foreground: 226 100% 95%;
+    --secondary: 8 45% 52%; /* #C15E4A - Light terracotta red/orange */
+    --secondary-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
 
-    --tertiary: 38 92% 50%;
-    --tertiary-foreground: 226 49% 8%;
+    --tertiary: 30 100% 33%; /* #A85E00 - Warm amber */
+    --tertiary-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
 
-    --quaternary: 259 89% 66%;
-    --quaternary-foreground: 226 100% 95%;
+    --quaternary: 0 60% 45%; /* #B83232 - Desaturated crimson */
+    --quaternary-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
 
-    --muted: 220 40% 20%;
-    --muted-foreground: 226 100% 75%;
+    --muted: 30 35% 75%; /* #DAB9A6 - Soft sand tone */
+    --muted-foreground: 0 35% 40%; /* Darker brown-red for muted text */
 
-    --accent: 217 91% 60%;
-    --accent-foreground: 226 100% 95%;
+    --accent: 3 50% 40%; /* #9C3B36 - Brick red accent */
+    --accent-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 226 100% 95%;
+    --destructive: 0 60% 45%; /* #B83232 - Desaturated crimson */
+    --destructive-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
 
-    --border: 220 40% 18%;
-    --input: 220 40% 15%;
-    --ring: 217 91% 60%;
+    --border: 30 35% 75%; /* #DAB9A6 - Soft sand tone for borders */
+    --input: 30 85% 92%; /* #FBE3D0 - Soft warm peach for inputs */
+    --ring: 3 50% 40%; /* #9C3B36 - Brick red for focus rings */
 
     --radius: 1rem;
 
-    --sidebar-background: 220 40% 12%;
-    --sidebar-foreground: 226 100% 95%;
-    --sidebar-primary: 217 91% 60%;
-    --sidebar-primary-foreground: 226 100% 95%;
-    --sidebar-accent: 220 40% 18%;
-    --sidebar-accent-foreground: 226 100% 95%;
-    --sidebar-border: 220 40% 18%;
-    --sidebar-ring: 217 91% 60%;
+    --sidebar-background: 30 85% 92%; /* #FBE3D0 - Soft warm peach */
+    --sidebar-foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red */
+    --sidebar-primary: 3 50% 40%; /* #9C3B36 - Brick red */
+    --sidebar-primary-foreground: 30 100% 97%; /* #FFF4EA - Light text */
+    --sidebar-accent: 30 35% 75%; /* #DAB9A6 - Soft sand tone */
+    --sidebar-accent-foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red */
+    --sidebar-border: 30 35% 75%; /* #DAB9A6 - Soft sand tone */
+    --sidebar-ring: 3 50% 40%; /* #9C3B36 - Brick red */
   }
 }
 

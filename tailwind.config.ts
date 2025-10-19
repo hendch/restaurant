@@ -65,6 +65,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom restaurant analytics palette
+        restaurant: {
+          bg: "#FFF4EA",        // Very light peach/beige
+          panel: "#FBE3D0",     // Soft warm peach for cards
+          primary: "#9C3B36",   // Brick red for bars & lines
+          secondary: "#C15E4A", // Light terracotta red/orange
+          tertiary: "#A85E00",  // Warm amber
+          text: "#5A2C2C",      // Deep brown-red for labels
+          muted: "#DAB9A6",     // Soft sand tone
+          positive: "#A85E00",  // Warm amber
+          danger: "#B83232",    // Desaturated crimson
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
