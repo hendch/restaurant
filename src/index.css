@@ -8,51 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Restaurant Analytics Warm Peach/Terracotta Theme */
-    --background: 30 100% 97%; /* #FFF4EA - Very light peach/beige */
-    --foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red for text */
+    /* Mexican Restaurant Theme - Vibrant & Warm */
+    --background: 45 100% 96%; /* #FFF8E1 - Warm cream (tortilla) */
+    --foreground: 25 50% 15%; /* #3E2723 - Deep brown text */
 
-    --card: 30 85% 92%; /* #FBE3D0 - Soft warm peach for cards */
-    --card-foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red for text */
+    --card: 45 100% 90%; /* #FFECB3 - Light warm beige */
+    --card-foreground: 25 50% 15%; /* #3E2723 - Deep brown */
 
-    --popover: 30 85% 92%; /* #FBE3D0 - Soft warm peach */
-    --popover-foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red */
+    --popover: 45 100% 90%; /* #FFECB3 - Light warm beige */
+    --popover-foreground: 25 50% 15%; /* #3E2C23 - Deep brown */
 
-    --primary: 3 50% 40%; /* #9C3B36 - Brick red for bars & lines */
-    --primary-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
+    --primary: 4 77% 52%; /* #D32F2F - Chile red */
+    --primary-foreground: 45 100% 96%; /* #FFF8E1 - Light cream text */
 
-    --secondary: 8 45% 52%; /* #C15E4A - Light terracotta red/orange */
-    --secondary-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
+    --secondary: 122 39% 49%; /* #43A047 - Vibrant lime/cilantro green */
+    --secondary-foreground: 45 100% 96%; /* #FFF8E1 - Light cream text */
 
-    --tertiary: 30 100% 33%; /* #A85E00 - Warm amber */
-    --tertiary-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
+    --tertiary: 36 100% 50%; /* #FF6F00 - Warm orange/gold (queso) */
+    --tertiary-foreground: 45 100% 96%; /* #FFF8E1 - Light cream text */
 
-    --quaternary: 0 60% 45%; /* #B83232 - Desaturated crimson */
-    --quaternary-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
+    --quaternary: 282 47% 40%; /* #7B1FA2 - Purple (onion/cabbage) */
+    --quaternary-foreground: 45 100% 96%; /* #FFF8E1 - Light cream text */
 
-    --muted: 30 35% 75%; /* #DAB9A6 - Soft sand tone */
-    --muted-foreground: 0 35% 40%; /* Darker brown-red for muted text */
+    --muted: 45 60% 80%; /* #F5E6C3 - Soft sand/beige */
+    --muted-foreground: 25 50% 30%; /* Darker brown for muted text */
 
-    --accent: 3 50% 40%; /* #9C3B36 - Brick red accent */
-    --accent-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
+    --accent: 64 89% 61%; /* #CDDC39 - Bright lime accent */
+    --accent-foreground: 25 50% 15%; /* #3E2723 - Deep brown on bright */
 
-    --destructive: 0 60% 45%; /* #B83232 - Desaturated crimson */
-    --destructive-foreground: 30 100% 97%; /* #FFF4EA - Light text on dark */
+    --destructive: 4 77% 52%; /* #D32F2F - Chile red */
+    --destructive-foreground: 45 100% 96%; /* #FFF8E1 - Light cream text */
 
-    --border: 30 35% 75%; /* #DAB9A6 - Soft sand tone for borders */
-    --input: 30 85% 92%; /* #FBE3D0 - Soft warm peach for inputs */
-    --ring: 3 50% 40%; /* #9C3B36 - Brick red for focus rings */
+    --border: 45 60% 75%; /* #E8D7A8 - Soft sand border */
+    --input: 45 100% 90%; /* #FFECB3 - Light beige input */
+    --ring: 4 77% 52%; /* #D32F2F - Chile red focus ring */
 
     --radius: 1rem;
 
-    --sidebar-background: 30 85% 92%; /* #FBE3D0 - Soft warm peach */
-    --sidebar-foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red */
-    --sidebar-primary: 3 50% 40%; /* #9C3B36 - Brick red */
-    --sidebar-primary-foreground: 30 100% 97%; /* #FFF4EA - Light text */
-    --sidebar-accent: 30 35% 75%; /* #DAB9A6 - Soft sand tone */
-    --sidebar-accent-foreground: 0 35% 25%; /* #5A2C2C - Deep brown-red */
-    --sidebar-border: 30 35% 75%; /* #DAB9A6 - Soft sand tone */
-    --sidebar-ring: 3 50% 40%; /* #9C3B36 - Brick red */
+    --sidebar-background: 45 100% 90%; /* #FFECB3 - Light warm beige */
+    --sidebar-foreground: 25 50% 15%; /* #3E2723 - Deep brown */
+    --sidebar-primary: 4 77% 52%; /* #D32F2F - Chile red */
+    --sidebar-primary-foreground: 45 100% 96%; /* #FFF8E1 - Light cream */
+    --sidebar-accent: 45 60% 80%; /* #F5E6C3 - Soft beige */
+    --sidebar-accent-foreground: 25 50% 15%; /* #3E2723 - Deep brown */
+    --sidebar-border: 45 60% 75%; /* #E8D7A8 - Soft sand */
+    --sidebar-ring: 4 77% 52%; /* #D32F2F - Chile red */
   }
 }
 

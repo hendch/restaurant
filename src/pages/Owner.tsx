@@ -8,10 +8,10 @@ const Owner = () => {
       <div className="container mx-auto px-6 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-foreground mb-2">
-            Restaurant Owner
+            🌮 Dueño Dashboard
           </h1>
           <p className="text-xl text-muted-foreground">
-            Operations & Performance Dashboard
+            Mexican Restaurant Operations & Performance
           </p>
         </div>
 

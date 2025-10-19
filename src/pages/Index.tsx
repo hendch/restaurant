@@ -1,6 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { RoleCard } from "@/components/RoleCard";
-import { TrendingUp, Megaphone, Store } from "lucide-react";
+import { TrendingUp, Megaphone, Store, LogIn } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -9,39 +11,43 @@ const Index = () => {
       <main className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <div className="inline-block mb-6">
-            <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-primary via-secondary to-tertiary flex items-center justify-center mb-6 mx-auto shadow-2xl">
-              <TrendingUp className="w-10 h-10 text-primary-foreground" />
-            </div>
+            <div className="text-7xl mb-4">🌮</div>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Restaurant Analytics Platform
+            La Cantina Analytics
           </h1>
-          <p className="text-2xl text-muted-foreground mb-4">
-            AI-Powered Business Intelligence
+          <p className="text-2xl text-secondary-foreground bg-secondary/20 inline-block px-6 py-2 rounded-full mb-4">
+            🌶️ Mexican Restaurant Business Intelligence 🌶️
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive insights for restaurant operations, marketing campaigns, and franchise growth—all powered by Power BI embedded analytics.
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+            Authentic insights for Mexican restaurant operations, marketing campaigns, and franchise growth—powered by Power BI embedded analytics.
           </p>
+          <Link to="/auth">
+            <Button size="lg" className="gap-2">
+              <LogIn className="w-5 h-5" />
+              Sign In / Sign Up
+            </Button>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <RoleCard
-            title="Owner"
-            description="Monitor operations, food quality, service metrics, and overall performance across your restaurant network."
+            title="Dueño (Owner)"
+            description="Monitor taco quality, salsa freshness, service metrics, and overall cantina performance across your Mexican restaurant empire."
             icon={TrendingUp}
             href="/owner"
             tone="primary"
           />
           <RoleCard
             title="Marketing"
-            description="Analyze consumer behavior, campaign effectiveness, and market trends to drive growth."
+            description="Analyze customer preferences for tacos vs burritos, campaign effectiveness, and trends in authentic Mexican cuisine."
             icon={Megaphone}
             href="/marketing"
             tone="secondary"
           />
           <RoleCard
-            title="Franchise"
-            description="Track network expansion, franchise performance, and growth opportunities."
+            title="Franquicia"
+            description="Track cantina expansion, franchise taco sales performance, and growth opportunities across locations."
             icon={Store}
             href="/franchise"
             tone="tertiary"

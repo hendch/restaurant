@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Owner from "./pages/Owner";
 import Marketing from "./pages/Marketing";
 import Franchise from "./pages/Franchise";
+import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -19,6 +20,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="/owner" element={<Owner />} />
           <Route path="/marketing" element={<Marketing />} />
           <Route path="/franchise" element={<Franchise />} />

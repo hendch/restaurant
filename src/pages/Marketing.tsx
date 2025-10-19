@@ -8,10 +8,10 @@ const Marketing = () => {
       <div className="container mx-auto px-6 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-foreground mb-2">
-            Marketing Analytics
+            🌶️ Marketing Analytics
           </h1>
           <p className="text-xl text-muted-foreground">
-            Consumer Insights & Campaign Performance
+            Taco Lovers Insights & Campaign Performance
           </p>
         </div>
 

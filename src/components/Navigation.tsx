@@ -17,10 +17,8 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <TrendingUp className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <span className="font-bold text-lg text-foreground">Restaurant Analytics</span>
+            <div className="text-3xl">🌮</div>
+            <span className="font-bold text-lg text-foreground">La Cantina Analytics</span>
           </Link>
           <div className="flex items-center space-x-1">
             {navItems.map((item) => {

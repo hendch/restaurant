@@ -8,10 +8,10 @@ const Franchise = () => {
       <div className="container mx-auto px-6 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-foreground mb-2">
-            Franchise Network
+            🏪 Franquicia Network
           </h1>
           <p className="text-xl text-muted-foreground">
-            Growth Metrics & Network Performance
+            Cantina Expansion & Network Performance
           </p>
         </div>
 

@@ -65,17 +65,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Custom restaurant analytics palette
+        // Mexican restaurant palette
         restaurant: {
-          bg: "#FFF4EA",        // Very light peach/beige
-          panel: "#FBE3D0",     // Soft warm peach for cards
-          primary: "#9C3B36",   // Brick red for bars & lines
-          secondary: "#C15E4A", // Light terracotta red/orange
-          tertiary: "#A85E00",  // Warm amber
-          text: "#5A2C2C",      // Deep brown-red for labels
-          muted: "#DAB9A6",     // Soft sand tone
-          positive: "#A85E00",  // Warm amber
-          danger: "#B83232",    // Desaturated crimson
+          bg: "#FFF8E1",        // Warm cream (tortilla)
+          panel: "#FFECB3",     // Light warm beige
+          primary: "#D32F2F",   // Chile red
+          secondary: "#43A047", // Vibrant lime/cilantro green
+          tertiary: "#FF6F00",  // Warm orange/gold (queso)
+          quaternary: "#7B1FA2",// Purple (onion/cabbage)
+          text: "#3E2723",      // Deep brown
+          muted: "#F5E6C3",     // Soft beige
+          accent: "#CDDC39",    // Bright lime
+          positive: "#43A047",  // Green
+          danger: "#D32F2F",    // Chile red
         },
       },
       borderRadius: {
